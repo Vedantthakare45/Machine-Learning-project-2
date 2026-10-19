@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c86e926-db77-4482-b2ed-701e633e2cf3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../AI/AI.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../AI/AI.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AI/unit 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AI/unit 2_all.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cat/cat_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dog/dog_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../House Price Predction project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../House Price Prediction project ml - 1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../House Price Prediction project ml - 1/code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../House Price Prediction project ml - 1/house_price_model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kleiber_Flug.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a/Doc1-image.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a/form.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc prcatical/CASE STUDY ON AWS-practical 3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc prcatical/CC-Practical No-4-p.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../cc prcatical/CC-Practical No-4-p.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc prcatical/pr_CC4.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc prcatical/practical -4 cc.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud/Unit1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitdemo/vedant_demo" beforeDir="false" afterPath="$PROJECT_DIR$/../gitdemo/vedant_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lion/lion_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ml project 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vedant-Resume.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../vedant-Resume.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3KsA3dAphDJkKHyfu8CtMaAO09Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.code.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml project 2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.code" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c86e926-db77-4482-b2ed-701e633e2cf3" name="Changes" comment="" />
+      <created>1792335707980</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792335707980</updated>
+    </task>
+    <servers />
+  </component>
+</project>
