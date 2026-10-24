@@ -46,3 +46,7 @@ Implemented a Logistic Regression classifier using the Iris dataset and Scikit-l
 
 
 
+
+
+Preprocessed the Adult Census Income dataset using pandas and Scikit-learn. Applied `StandardScaler` to numerical features and `OneHotEncoder` to categorical features using `ColumnTransformer`, then exported the processed dataset to a CSV file.
+
