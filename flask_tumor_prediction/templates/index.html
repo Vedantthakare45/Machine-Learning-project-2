@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Tumor Prediction</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f6fb;
+            color: #243247;
+            margin: 0;
+            padding: 24px;
+        }
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 28px;
+            border-radius: 14px;
+            box-shadow: 0 4px 18px rgba(0,0,0,.07);
+        }
+        h1 { margin-top: 0; color: #173b63; }
+        .intro, .note { line-height: 1.55; color: #586579; }
+        .note {
+            background: #fff5d9;
+            border: 1px solid #ecd38a;
+            border-radius: 8px;
+            padding: 12px 14px;
+            margin: 18px 0;
+        }
+        .fields {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+        }
+        label {
+            display: block;
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cbd3df;
+            border-radius: 6px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 12px 18px;
+            border: 0;
+            border-radius: 7px;
+            color: white;
+            background: #205fa3;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover { background: #174879; }
+        .result, .error {
+            padding: 14px;
+            margin: 18px 0;
+            border-radius: 8px;
+        }
+        .benign { background: #e6f6eb; border: 1px solid #9bd1aa; }
+        .malignant, .error { background: #fdeaea; border: 1px solid #e8aaaa; }
+        @media (max-width: 760px) {
+            .fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
+        @media (max-width: 480px) {
+            body { padding: 10px; }
+            main { padding: 18px; }
+            .fields { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Breast Tumor Prediction</h1>
+    <p class="intro">
+        Enter the 30 numerical features used by the trained Decision Tree Classifier,
+        then submit the form to see the model's predicted class.
+    </p>
+
+    <div class="note">
+        <strong>Educational use only:</strong> This app is not a medical diagnostic tool.
+        Do not use its predictions to make medical decisions.
+    </div>
+
+    {% if prediction %}
+    <div class="result {{ 'benign' if prediction.is_benign else 'malignant' }}">
+        <h2>Predicted result: {{ prediction.label }}</h2>
+        <p>
+            The model classifies the submitted measurements as
+            <strong>{{ prediction.label.lower() }}</strong>.
+        </p>
+        <p>This is a model prediction, not a medical diagnosis.</p>
+    </div>
+    {% endif %}
+
+    {% if error %}
+    <div class="error">{{ error }}</div>
+    {% endif %}
+
+    <form method="POST">
+        <div class="fields">
+            {% for feature in feature_names %}
+            <div>
+                <label for="feature_{{ loop.index0 }}">
+                    {{ feature.replace('_', ' ').title() }}
+                </label>
+                <input
+                    type="number"
+                    step="any"
+                    id="feature_{{ loop.index0 }}"
+                    name="feature_{{ loop.index0 }}"
+                    value="{{ values[loop.index0] }}"
+                    required>
+            </div>
+            {% endfor %}
+        </div>
+        <button type="submit">Predict Tumor Class</button>
+    </form>
+</main>
+</body>
+</html>
