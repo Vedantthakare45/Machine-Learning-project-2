@@ -55,3 +55,8 @@ Preprocessed the Adult Census Income dataset using pandas and Scikit-learn. Appl
 
 Built a handwritten digit classification model using Scikit-learn's SVM. Created a Pipeline with StandardScaler and SVC, optimized hyperparameters using GridSearchCV with 5-fold cross-validation, and evaluated performance using accuracy, a classification report, and a confusion matrix.
 
+
+### Titanic Feature Importance Dashboard
+
+Developed a feature-importance dashboard using Python, Pandas, Scikit-learn, and Plotly. Trained a Random Forest Classifier on the Titanic dataset, evaluated its performance, and visualized feature importance using an interactive bar chart.
+
