@@ -1,0 +1,4 @@
+flask
+numpy
+gymnasium   # optional: if absent, a built-in FrozenLake 4x4 is used
+pytest
