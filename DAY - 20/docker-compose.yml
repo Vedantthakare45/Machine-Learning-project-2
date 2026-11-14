@@ -1,0 +1,36 @@
+services:
+  iris-app:
+    build: ./app
+    container_name: iris-app
+    ports:
+      - "5000:5000"
+    environment:
+      # Raise these to trigger alerts, e.g. CHAOS_ERROR_RATE=0.2
+      CHAOS_ERROR_RATE: "${CHAOS_ERROR_RATE:-0}"
+      CHAOS_MAX_DELAY_MS: "${CHAOS_MAX_DELAY_MS:-0}"
+
+  prometheus:
+    image: prom/prometheus:v2.53.0
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./prometheus/alerts.yml:/etc/prometheus/alerts.yml:ro
+    depends_on:
+      - iris-app
+
+  grafana:
+    image: grafana/grafana:11.1.0
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH: /var/lib/grafana/dashboards/iris-dashboard.json
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+    depends_on:
+      - prometheus

@@ -1,0 +1,34 @@
+# Step 3: alert rules (visible in Prometheus /alerts and on the Grafana dashboard)
+groups:
+  - name: iris-classifier
+    rules:
+      - alert: HighErrorRate
+        expr: |
+          100 * sum(rate(http_requests_total{endpoint="/predict", status!~"2.."}[1m]))
+              / sum(rate(http_requests_total{endpoint="/predict"}[1m])) > 5
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "High error rate on /predict"
+          description: "{{ $value | printf \"%.1f\" }}% of /predict requests failed over the last minute (threshold 5%)."
+
+      - alert: HighLatencyP95
+        expr: |
+          histogram_quantile(0.95,
+            sum by (le) (rate(http_request_duration_seconds_bucket{endpoint="/predict"}[1m]))) > 0.5
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "p95 latency above 500 ms"
+          description: "p95 latency of /predict is {{ $value | printf \"%.3f\" }}s."
+
+      - alert: ServiceDown
+        expr: up{job="iris-classifier"} == 0
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Iris classifier is down"
+          description: "Prometheus cannot scrape iris-app:5000/metrics."
